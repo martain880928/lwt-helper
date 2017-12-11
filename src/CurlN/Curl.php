@@ -1,5 +1,5 @@
 <?php
-namespace CurlN;
+namespace LwtHelper\Curl;
 
 class Curl
 {
