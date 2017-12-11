@@ -13,7 +13,7 @@
       "php": ">=5.4.0"
     },
     "autoload": {
-      "files":["src/helper/Function.php"],
+      "files":["src/Helper/Function.php"],
         "psr-4": {
             "LwtHelper\\": "src/"
         }

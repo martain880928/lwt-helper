@@ -1,6 +1,6 @@
 <?php
 require_once __DIR__ . '/vendor/autoload.php'; 
-require_once __DIR__ . '/src/helper/Function.php';
+//require_once __DIR__ . '/src/helper/Function.php';
 
 use LwtHelper\curl\Curl;
 
