@@ -2,7 +2,7 @@
 require_once __DIR__ . '/vendor/autoload.php'; 
 //require_once __DIR__ . '/src/helper/Function.php';
 
-use LwtHelper\curl\Curl;
+
 
 /* 
  * To change this license header, choose License Headers in Project Properties.
@@ -12,6 +12,6 @@ use LwtHelper\curl\Curl;
 
 $url = "http://www.huomaotv.com/api?a=live_list&type=live&l=200";
 
-$data = Curl::sendGet($url);
+$data = LwtHelper\Curl\Curl::sendGet($url);
 
 ee($data);

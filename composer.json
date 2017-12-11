@@ -1,21 +1,22 @@
 {
-  "name":"lwt/helper",
+  "name": "lwt/helper",
   "description": "common tools for develope",
-    "license": "MIT License",
-    "authors": [
-        {
-            "name": "luwentao",
-            "email": "286164156@cqq.com"
-        }
-    ],
-    "minimum-stability": "dev",
-    "require": {
-      "php": ">=5.4.0"
-    },
-    "autoload": {
-      "files":["src/Helper/Function.php"],
-        "psr-4": {
-            "LwtHelper\\": "src/"
-        }
+  "license": "MIT License",
+  "authors": [
+    {
+      "name": "luwentao",
+      "email": "286164156@cqq.com"
     }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=5.4.0"
+  },
+  "autoload": {
+    "files": ["src/Helper/Function.php"],
+    "psr-4": {
+      "LwtHelper\\": "src/"
+    },
+    "classmap": ["src/"]
+  }
 }
